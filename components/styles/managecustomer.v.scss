@@ -1,0 +1,15 @@
+.manage-container {
+	overflow-y: auto;
+	overflow-x: auto;
+	max-height: 90vh;
+	max-width: 90vw;
+	margin: auto;
+	padding: auto;
+  .manage-page-header {
+  	padding-top: 40px;
+  	height: 40%;
+  }
+  .table {
+	height: 60%;
+  }
+}

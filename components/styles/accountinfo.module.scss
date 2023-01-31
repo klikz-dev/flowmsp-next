@@ -1,0 +1,25 @@
+.account-container {
+	overflow-y: auto;
+	overflow-x: auto;
+	max-height: 90vh;
+	max-width: 90vw;
+	margin: 20px;
+  .account-page-header {
+  	padding-top: 40px;
+  	margin: 10px;
+  } 
+  .user-page-header {
+  	padding-top: 5px;
+  	margin-left: 20px;
+  }
+  .table {
+  	margin-left: 20px;
+  	margin-top: 20px;
+  	height: 100%;
+  	width: 100%;
+  	margin-bottom: 40px;  	
+  }
+  .user-table-action {
+   		cursor: pointer;
+  }
+}

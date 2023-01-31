@@ -1,0 +1,64 @@
+.main-div {
+	overflow-y: auto;
+	max-height: 90vh;
+	margin: 10px;
+	
+.table>thead>tr>th{
+    border: 1px solid #333;    
+}
+.table>tbody>tr>td{
+    border: 1px solid #333;    
+}
+.table>tbody>{
+    border: 2px solid #333;    
+}
+.table>tfoot>tr>td {
+   border: 1px solid #333;
+}
+.table>tbody+tbody {
+  border-top: 1px solid #333;
+}
+td[label="High BP"] {
+	text-align: right;
+}
+  .form-div-dispatch {
+	height: 30%;	
+	margin: 10px;
+	width: 90%;
+  }
+  .form-div-activity {
+	height: 30%;
+	width: 90%;
+	margin: 10px;
+  }
+  .form-div-users {
+	height: 10%;
+	width: 90%;
+	margin: 10px;
+  }
+  .zero-div {
+  	height: 10%;
+  	width: 100%;
+  }  
+  .first-div {
+  	height: 40%;
+  	width: 100%;
+  }
+  .second-div {
+  	height: 20%;
+  	width : 100%;
+  	overflow-x: auto;
+  }
+  .data-div-stat {
+  	margin: 20px;
+  }
+  .third-div {
+  	height: 20%;
+  	width: 100%;
+  	margin: 10px;
+  }  
+  .forth-div {
+  	height: 80%;
+  	width: 100%;
+  }
+}
